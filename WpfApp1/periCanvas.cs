@@ -16,7 +16,7 @@ namespace WpfApp1
         //korvaa metodi OnRender
         protected override void OnRender(DrawingContext dc)
         {
-            //base.OnRender(dc);
+
             Pen pen = new Pen();
             pen.Brush = Brushes.Red;
             Brush brush = Brushes.DarkGray;
