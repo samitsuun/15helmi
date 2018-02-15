@@ -25,7 +25,8 @@ namespace WpfApp1
             Rect rect = new Rect(0, 0, Width, Height);
             dc.DrawRectangle(Brushes.Cyan, null, rect);
 
-            dc.DrawEllipse(brush, pen, point, 100, 100);
+            dc.DrawEllipse(brush, pen, new Point(x, y), 100, 100);
+            dc.DrawEllipse(brush, pen, new Point(Width-x, y), 100, 100);
         }
 
         public void SetXY(double x, double y)
