@@ -27,7 +27,6 @@ namespace WpfApp1
 
         private void myCn_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            //
             Point p = e.GetPosition(myCn);
             myCn.SetXY(p.X, p.Y);
         }
